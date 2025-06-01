@@ -6,7 +6,7 @@ const Imagetext = ({imagesrc, imagealt , title , description ,butt ,resverse = f
         <div className="w-100 md:w-[50%] ">
         <img src={imagesrc} alt={imagealt} className='w-full rounded-2xl text-center active:scale-95 cursor-pointer overflow-hidden'/>
         </div>
-        <div className="w-full h-115 md:w-[63%] md:h-68 md:absolute -translate-y-2.5 md:top-15 md:left-130  bg-gray-100 rounded-3xl shadow-2xl">
+        <div className="w-full h-115 md:w-[63%] md:h-68 md:absolute -translate-y-2.5 md:top-20 md:left-138  bg-gray-100 rounded-3xl shadow-2xl duration-300">
             <h1 className='text-2xl md:text-4xl text-black p-2'>{title}</h1>
             <div className="w-50 h-1 bg-green-400 rounded-2xl mx-3"></div>
             <p className='text-xl  text-black text-justify py-3 px-3' >{description}</p>

@@ -24,11 +24,11 @@ function Home() {
       </div>
 
 
-      <div className="md:w-full  relative px-5 py-15 bg-gray-300 h-220 md:h-130">
+      <div className="md:w-full  relative px-5 py-15 bg-gray-200 h-220 md:h-130">
       
       <Session
         title="Your Smart Path to the Perfect Living Space"
-        para1=" At Roomzy, we believe finding your ideal room or PG should be simple, fast, and stress-free.That why we've built a smart platform that puts real-time listings verified , properties and personalized search filters at your fingertips."
+        para1=" At Roomzy, we believe finding your ideal room or PG should be simple, fast, and stress-free.That why we've built a smart platform that puts real-time listings verified, properties and personalized search filters at your fingertips."
         para2="From students seeking budget-friendly PGs to professionals needing private flats,Roomzy delivers options that are accurate,affordable,and tailored to your lifestyle."
         para3="No brokers no hidden fees just a clean, user-first experience designed to save you time and help you move in with confidence."
         img1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqVNW23aVOw9dibaR83JxmSCUleKibRFY8A&s"

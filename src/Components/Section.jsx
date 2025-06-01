@@ -4,9 +4,9 @@ const Section = ({ title, para1, para2, para3, img1, img2, img3, reverse = false
   return (
     // <div className={`md:w-full  relative px-5 py-15 bg-gray-300 h-230 md:h-100 `}>
       <div className="w-full md:w-[50%]">
-        <h1 className='text-[22px] md:text-3xl md:text-justify font-semibold md:font-bold p-1'>{title}</h1>
+        <h1 className='text-[22px] md:text-3xl md:text-justify font-semibold md:font-bold pb-4'>{title}</h1>
         <div className="w-50 h-1.5 bg-red-800 rounded-2xl"></div>
-        <p className='text-[18px] md:text-xl text-justify'>
+        <p className='text-[18px] md:text-xl text-justify pt-3'>
           {para1}
         </p>
         <p className='text-[18px] md:text-xl text-justify'>
