@@ -32,7 +32,7 @@ const Dynamic_img = ({ title, subtitle, img1, img1alt, img2, img2alt, img3, img3
                             />
                         </div>
 
-                        <div className="w-[80%] h-2/3 -right-2 -bottom-2 md:-right-[3%] md:bottom-3.5 md:h-[50%] md:w-[55%] absolute overflow-hidden z-20 hover:z-30 hover:scale-105 duration-1000 hover:opacity-100 rounded-2xl cursor-pointer hover:rounded-[3vw]">
+                        <div className="w-[60%] h-2/3 right-5 -bottom-2 md:-right-[3%] md:bottom-3.5 md:h-[50%] md:w-[55%] absolute overflow-hidden z-20 hover:z-30 hover:scale-105 duration-1000 hover:opacity-100 rounded-2xl cursor-pointer hover:rounded-[3vw]">
                             <img
                                 className="w-full h-full object-cover"
                                 src={img3}
