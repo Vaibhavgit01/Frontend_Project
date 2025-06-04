@@ -60,7 +60,7 @@ function Navbar() {
     {/* Desktop Search/Login */}
     <div className="hidden md:flex items-center gap-3">
       <BsSearch className="text-white text-2xl" />
-      <button className="text-lg font-semibold bg-white px-4 py-2 rounded-xl text-black hover:bg-gray-200">
+      <button className="text-lg font-semibold bg-white px-4 py-2 rounded-xl text-black hover:bg-gray-200 cursor-pointer">
         Login
       </button>
     </div>
