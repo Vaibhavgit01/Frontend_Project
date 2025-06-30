@@ -1,16 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import MainImage from '../../Components/MainImage'
+import OnebhkCard from '../../Components/OnebhkCard'
+import Onebhkcarddata from '../../api/onebhk.json'
 const Onebhk = () => {
+  const [cart, setCart] = useState([])
+
+  const handleAddToCart = (item) => {
+    setCart((prevCart) => [...prevCart, item])
+    console.log("Cart updated:", [...cart, item])
+  }
   return (
     <>
       <div className="">
         <MainImage
-          mimage=""
+          mimage="https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/27/full/1719427076-3256.jpg?im=FeatureCrop,size=(826,465)"
           imgalt="Home image"
           dmtext="One Bhk Page"
           ddestext=""
         />
       </div>
+       {/* card component  */}
+
+      <div className="bg-gray-50  p-9 m-3">
+
+        <h1 className=' text-3xl font-bold text-center p-2'>Avaliable One BHK Room </h1>
+        <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-2">
+          {Onebhkcarddata.map((card) => (
+            <OnebhkCard key={card.id} {...card} onAddToCart={handleAddToCart}/>
+          ))}
+
+        </div>
+      </div>
+
       <div className="w-full h-full px-[7vw] py-[5vw] bg-white text-black">
         <div className="w-full h-full md:h-[35vw] flex flex-col md:flex-row gap-8 md:gap-[5vw]">
           <div className="w-full h-80 md:h-full relative">
@@ -98,6 +119,9 @@ const Onebhk = () => {
           </div>
         </div>
       </div>
+
+     
+
     </>
   )
 }

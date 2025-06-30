@@ -1,0 +1,11 @@
+[
+    {
+        "id": 1,
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7MKMsEPHAi3_JoeMSoPCdRqx0PmJu33azw&s",
+            "imgalt": "house_img",
+            "title": "Road Side House",
+            "rating": 8.5,
+            "description": "Sector 65 Mohali, the best House is for scale",
+            "amount": "₹ 1.5 Cr"
+    }
+]
