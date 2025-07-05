@@ -5,9 +5,9 @@ function Threebhk() {
     <>
       <div className="">
         <MainImage
-          mimage=""
+          mimage="3 bhk.png"
           imgalt="Home image"
-          dmtext="Three Bhk Page"
+          dmtext="3 Bhk"
           ddestext=""
         />
       </div>

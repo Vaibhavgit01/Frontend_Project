@@ -5,9 +5,9 @@ function Twobhk() {
     <>
       <div className="">
         <MainImage
-          mimage=""
+          mimage="2 bhk1.png"
           imgalt="Home image"
-          dmtext="Two Bhk Page"
+          dmtext="2 Bhk"
           ddestext=""
         />
       </div>

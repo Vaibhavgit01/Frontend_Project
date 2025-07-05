@@ -8,7 +8,7 @@ function About() {
     <>
       <div className="">
         <MainImage
-          mimage="https://images.unsplash.com/photo-1614846384571-1e31322ed3a9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          mimage="https://images.unsplash.com/photo-1594484208280-efa00f96fc21?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           imgalt="Home image"
           dmtext="About Page"
           ddestext=""

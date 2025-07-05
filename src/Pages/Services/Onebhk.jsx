@@ -1,32 +1,56 @@
-import React, { useState } from 'react'
+import React, { useState, useContext } from 'react'
 import MainImage from '../../Components/MainImage'
 import OnebhkCard from '../../Components/OnebhkCard'
+import { Link, Navigate, useNavigate } from 'react-router-dom'
+import { AuthContext } from "../../Components/context/Authcontext"
 import Onebhkcarddata from '../../api/onebhk.json'
 const Onebhk = () => {
   const [cart, setCart] = useState([])
+  const [showPopup, setShowPopup] = useState(false);
+  const navigate = useNavigate();
+  const { currentUser } = useContext(AuthContext);
 
   const handleAddToCart = (item) => {
-    setCart((prevCart) => [...prevCart, item])
-    console.log("Cart updated:", [...cart, item])
-  }
+    if (!currentUser) {
+      setShowPopup(true);
+      setTimeout(() => {
+        setShowPopup(false);
+        navigate("/Login");
+      }, 3000);
+
+      return;
+    }
+    setCart(prev => [...prev, item]);
+    console.log(`✅ Added to Cart: ${item.title} (₹${item.amount})`);
+
+    setShowPopup(true);
+    setTimeout(() => setShowPopup(false), 2000);
+  };
+
   return (
     <>
       <div className="">
         <MainImage
-          mimage="https://bsmedia.business-standard.com/_media/bs/img/article/2024-06/27/full/1719427076-3256.jpg?im=FeatureCrop,size=(826,465)"
+          mimage="1 bhk.png"
           imgalt="Home image"
-          dmtext="One Bhk Page"
+          dmtext="1 Bhk"
           ddestext=""
         />
+        {showPopup && (
+          <div className={`fixed top-5 right-5 text-lg px-4 py-2 rounded-xl shadow-lg z-50 animate-bounce ${currentUser ? 'bg-green-500' : 'bg-red-500'
+            } text-white`}>
+            {currentUser ? "Item added successfully ✅" : "Firstly login to add items in your Cart ❌"}
+          </div>
+        )}
       </div>
-       {/* card component  */}
+      {/* card component  */}
 
       <div className="bg-gray-50  p-9 m-3">
 
         <h1 className=' text-3xl font-bold text-center p-2'>Avaliable One BHK Room </h1>
         <div className="mt-4 grid grid-cols-1 md:grid-cols-4 gap-2">
-          {Onebhkcarddata.map((card) => (
-            <OnebhkCard key={card.id} {...card} onAddToCart={handleAddToCart}/>
+          {Onebhkcarddata.map((item) => (
+            <OnebhkCard key={item.id} {...item} onAddToCart={handleAddToCart} />
           ))}
 
         </div>
@@ -120,7 +144,7 @@ const Onebhk = () => {
         </div>
       </div>
 
-     
+
 
     </>
   )
