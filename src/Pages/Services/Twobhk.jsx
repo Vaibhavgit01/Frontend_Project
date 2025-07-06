@@ -13,7 +13,9 @@ function Twobhk() {
       </div>
 
       {/* card Component add here */}
-
+      <div className="flex justify-center items-center w-full h-50 p-5 ">
+        <h1 className='text-4xl bg-black text-white p-5 rounded-2xl'>We working on this page</h1>
+      </div>
       <div className="w-full h-full px-[7vw] py-[5vw] bg-white text-black">
         <div className="w-full h-full md:h-[35vw] flex flex-col md:flex-row gap-8 md:gap-[5vw]">
           <div className="w-full h-80 md:h-full relative">

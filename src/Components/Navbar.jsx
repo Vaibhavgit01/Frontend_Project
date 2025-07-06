@@ -36,7 +36,7 @@ function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJBkioK5smfsoktt91aB11zaCkkaZZgA8Fyw&s"
+            src="Logo.png"
             alt="logo"
             className="w-20 p-2 rounded-3xl"
           />

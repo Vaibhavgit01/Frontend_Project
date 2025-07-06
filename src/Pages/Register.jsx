@@ -51,7 +51,7 @@ const Register = () => {
 
   }
   return (
-    <div className='flex flex-col justify-center items-center md:h-screen pt-0 pb-8 bg-gray-200 md:bg-gr ay-100 relative'>
+    <div className='flex flex-col justify-center items-center md:h-screen pt-0 pb-8 bg-[url("Register.jpg")] md:bg-[url("Register.jpg")] bg-cover relative'>
       {showSuccess && (
         <div className="fixed top-10  bg-green-400 text-white px-6 py-3 rounded-xl animate-bounce z-50 ">
           You are successfully logged in ✅
@@ -65,7 +65,7 @@ const Register = () => {
 
 
 
-      <div className="flex flex-col items-center bg-white shadow-sm md:shadow-md mb-4 px-6 py-5 rounded-2xl w-80 md:w-110 md:h-120 md:px-10 md:py-5">
+      <div className="flex flex-col items-center bg-white/50 backdrop-blur-none shadow-sm md:shadow-md mb-4 px-6 py-5 rounded-2xl w-80 md:w-110 md:h-120 md:px-10 md:py-5">
         <h1 className='text-xl md:text-3xl font-semibold text-blue-800'>CREATE NEW ACCOUNT</h1>
         <form className='flex flex-col gap-4.5 md:gap-5  w-full mt-5 p-2' onSubmit={handleSubmit}>
 
@@ -97,9 +97,9 @@ const Register = () => {
           <button type="submit" className='flex flex-col justify-center items-center bg-orange-400 text-white p-2 mt-2  text-[19px] md:text-xl font-semibold rounded-2xl cursor-pointer w-65 md:w-88 transition-all duration-300 ease-in-out hover:bg-orange-600 active:scale-95 active:bg-orange-700 ' >Submit</button>
         </form>
       </div>
-      <p className='text-lg font-semibold text-black md:text-xl'>
+      <p className='text-lg font-semibold text-white md:text-2xl'>
         Already have an account ? {""}
-        <Link to="/Login" className='text-blue-500 font-semibold animate-bounce inline-block'>   Login</Link>
+        <Link to="/Login" className='text-blue-600 font-semibold animate-pulse inline-block'>   Login</Link>
 
       </p>
     </div>

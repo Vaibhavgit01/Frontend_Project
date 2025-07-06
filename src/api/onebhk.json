@@ -1,20 +1,75 @@
 [
     {
         "id": 1,
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7MKMsEPHAi3_JoeMSoPCdRqx0PmJu33azw&s",
+            "img": "https://imagecdn.99acres.com/media1/20173/5/403465764O-1744200700163.jpg",
             "imgalt": "house_img",
-            "title": "Road Side House",
-            "rating": 8.5,
-            "description": "Sector 65 Mohali, the best House is for scale",
-            "amount": "₹ 1.5 Cr"
+            "title": "Room For Rent",
+            "rating": "4 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "2 ",
+            "Squarefit": "500 sqft",
+            "description": "Sector 65 Mohali, Punjab",
+            "amount": "₹ 30 k"
     },
     {
         "id": 2,
-            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL7MKMsEPHAi3_JoeMSoPCdRqx0PmJu33azw&s",
+            "img": "https://thumbs.dreamstime.com/b/new-modern-block-flats-green-area-blue-sky-sunset-77039301.jpg?w=768",
             "imgalt": "house_img",
-            "title": "Road Side House",
-            "rating": 5,
-            "description": "Sector 60 Mohali, the best House is for scale",
-            "amount": "₹ 1 Cr"
+            "title": "Apatment for rent",
+            "rating": "4 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "1 ",
+            "Squarefit": "500 sqft",
+            "description": "Sector 25 Chandigarh",
+            "amount": "₹ 15 k"
+    
+    },
+    {
+        "id": 3,
+            "img": "https://housing-images.n7net.in/01c16c28/1c6ce89d0e4ead58bce16ce728c4b379/v0/fs/1_bhk_apartment-for-rent-gazipur_punjab-Zirakpur-hall.jpg",
+            "imgalt": "house_img",
+            "title": "1 BHK for rent",
+            "rating": "3 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "1 ",
+            "Squarefit": "500 sqft",
+            "description": "Sector 13 Chandigarh",
+            "amount": "₹ 14 k"
+    },
+    {
+        "id": 4,
+            "img": "https://housing-images.n7net.in/01c16c28/613c37d83bb4949108b2f2612872de5e/v0/fs-large/1_bhk_apartment-for-rent-sector_115_1-Sahibzada+Ajit+Singh+Nagar-bedroom.jpg",
+            "imgalt": "house_img",
+            "title": "1 BHK for rent",
+            "rating": "3 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "1 ",
+            "Squarefit": "500 sqft",
+            "description": "Sector 17 Chandigarh",
+            "amount": "₹ 12 k"
+    },
+    {
+        "id": 5,
+            "img": "https://housing-images.n7net.in/4f2250e8/9cfc154518684764675a123b045b2ad8/v0/fs-large.jpeg",
+            "imgalt": "house_img",
+            "title": "1 BHK for rent",
+            "rating": "3 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "1 ",
+            "Squarefit": "500 sqft",
+            "description": "Sector 22 Chandigarh",
+            "amount": "₹ 20 k"
+    },
+    {
+        "id": 6,
+            "img": "https://images.letsrentz.com/PropertyImages/47947/property_1748774627648.jpg",
+            "imgalt": "house_img",
+            "title": "PG for rent",
+            "rating": "3.5 Rating",
+            "bedcount": "1 Bkh",
+            "bathcount": "1 ",
+            "Squarefit": "800 sqft",
+            "description": "Panchkula, Haryana",
+            "amount": "₹ 19 k"
     }
 ]
