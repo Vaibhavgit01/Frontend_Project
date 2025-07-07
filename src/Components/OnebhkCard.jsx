@@ -20,31 +20,31 @@ const OnebhkCard = ({ img, imgalt, title, rating, bedcount, bathcount, Squarefit
           {description}
         </p>
       </div>
-      <div className="w-83 h-0 mx-1 border-1 text-gray-400"></div>
+      <div className="md:w-83 h-0 mx-1 border-1 text-gray-400"></div>
 
 
       <div className="flex gap-8 text-center mt-3">
         <div className="flex flex-col">
-          <IoStarHalfOutline className='text-2xl text-amber-400 ml-6' />
+          <IoStarHalfOutline className='text-2xl text-amber-400 ml-5 md:ml-6' />
           <span className="mt-1 ml-2.5 font-semibold text-gray-800 text-[16px]">{rating}</span>
         </div>
         {/* </span>
         </h3> */}
         <div className="flex flex-col">
-          <FaBed className='text-2xl text-blue-500 ml-4.5' />
-          <span className="mt-1 ml-2.5 font-semibold text-gray-800 text-[16px]">{bedcount}</span>
+          <FaBed className='text-2xl text-blue-500 ml-2.5 md:ml-4.5' />
+          <span className="mt-1 ml-2 font-semibold text-gray-800 text-[16px]">{bedcount}</span>
         </div>
         <div className="flex flex-col">
-          <FaBath className='text-2xl text-green-500 ml-5' />
-          <span className='mt-1 ml-5 font-semibold text-gray-800 text-[16px]'> {bathcount}</span>
+          <FaBath className='text-2xl text-green-500 ml-2 md:ml-5' />
+          <span className='mt-1 ml-1.5 font-semibold text-gray-800 text-[16px]'> {bathcount}</span>
         </div>
         <div className="flex flex-col">
-          <FaRulerCombined className='text-2xl text-purple-600 ml-4' />
-          <span className='mt-1 ml-1 font-semibold text-gray-800 text-[16px]'> {Squarefit}</span>
+          <FaRulerCombined className='text-2xl text-purple-600 ml-3 md:ml-4' />
+          <span className='mt-1 md:ml-1 font-semibold text-gray-800 text-[16px]'> {Squarefit}</span>
         </div>
       </div>
 
-      <div className="w-83 h-0 mx-1 mt-3 border-1 text-gray-400"></div>
+      <div className="md:w-83 h-0 mx-1 mt-3 border-1 text-gray-400"></div>
 
       {
         amount && (
