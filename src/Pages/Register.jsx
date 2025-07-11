@@ -51,7 +51,7 @@ const Register = () => {
 
   }
   return (
-    <div className='flex flex-col justify-center items-center md:h-screen pt-0 pb-8 bg-[url("Register.jpg")] md:bg-[url("Register.jpg")] bg-cover relative'>
+    <div className='flex flex-col justify-center items-center md:h-screen pt-0 pb-8 bg-[url("https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg")]  bg-cover relative'>
       {showSuccess && (
         <div className="fixed top-10  bg-green-400 text-white px-6 py-3 rounded-xl animate-bounce z-50 ">
           You are successfully logged in ✅

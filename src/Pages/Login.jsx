@@ -43,7 +43,7 @@ const Login = () => {
 
 
     return (
-        <div className='flex flex-col justify-center items-center md:h-screen w-full pt-0 pb-1 bg-[url("Login.jpg")]  bg-cover relative'>
+        <div className='flex flex-col justify-center items-center md:h-screen w-full pt-0 pb-1 bg-[url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg")]  bg-cover relative'>
             {showSuccess && (
                 <div className="fixed top-10  bg-green-400 text-white px-6 py-3 rounded-xl animate-bounce z-50 ">
                     You are successfully logged in ✅
